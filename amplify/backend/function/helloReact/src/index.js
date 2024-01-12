@@ -15,6 +15,6 @@ exports.handler = async (event) => {
     //      "Access-Control-Allow-Origin": "*",
     //      "Access-Control-Allow-Headers": "*"
     //  },
-        body: JSON.stringify('here is update in lambda function '),
+        body: JSON.stringify('here is new update in lambda'),
     };
 };
