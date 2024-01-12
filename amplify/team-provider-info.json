@@ -15,7 +15,7 @@
       "function": {
         "helloReact": {
           "deploymentBucketName": "amplify-amplifyreactbackend-dev-113259-deployment",
-          "s3Key": "amplify-builds/helloReact-473366795a456930434d-build.zip"
+          "s3Key": "amplify-builds/helloReact-592f5656547875794c31-build.zip"
         }
       }
     }
