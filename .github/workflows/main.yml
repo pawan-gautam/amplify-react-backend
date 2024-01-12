@@ -34,8 +34,6 @@ jobs:
       - name: Deploy Amplify Backend
         run: amplify push --yes --simple
 
-      - name: Deploy Amplify Function
-        run: amplify function push --functionName YourFunctionName --yes --simple
         env:
           AMPLIFY_ENV: dev
           CI: true
