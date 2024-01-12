@@ -1,9 +1,9 @@
-name: Deploy Amplify Lambda Function
+name: Deploy Amplify Functions on main
 
 on:
   push:
     branches:
-      - master
+      - main 
 
 jobs:
   build_and_deploy:
@@ -29,11 +29,11 @@ jobs:
         run: npm install -g @aws-amplify/cli
 
       - name: Initialize Amplify
-        run: amplify init --appId ${{secrets.AMPLIFY_APP_ID}} --envName ${{secrets.ENV}}--region us-east-1 --yes
+        run: amplify init --appId d39dspc9b1g2w --envName main --region us-east-1 --yes
 
       - name: Deploy Amplify Backend
         run: amplify push --yes --simple
 
         env:
-          AMPLIFY_ENV: dev
+          AMPLIFY_ENV: main
           CI: true
