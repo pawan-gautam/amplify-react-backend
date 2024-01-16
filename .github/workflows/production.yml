@@ -3,7 +3,7 @@ name: Deploy Amplify Functions on main
 on:
   push:
     branches:
-      - main 
+      - master 
 
 jobs:
   build_and_deploy:
