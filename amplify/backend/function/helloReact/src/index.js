@@ -15,6 +15,6 @@ exports.handler = async (event) => {
     //      "Access-Control-Allow-Origin": "*",
     //      "Access-Control-Allow-Headers": "*"
     //  },
-        body: JSON.stringify('test 123 123333'),
+        body: JSON.stringify('test 123 1233331'),
     };
 };
