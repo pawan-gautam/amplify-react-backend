@@ -48,7 +48,7 @@
     "categories": {
       "function": {
         "helloReact": {
-          "deploymentBucketName": "amplify-amplifyreactbackend-dev-113259-deployment",
+          "deploymentBucketName": "amplify-amplifyreactbackend-newenv-164804-deployment",
           "s3Key": "amplify-builds/helloReact-6a79375065536f636d69-build.zip"
         }
       }
