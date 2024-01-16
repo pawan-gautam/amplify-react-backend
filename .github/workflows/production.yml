@@ -29,7 +29,7 @@ jobs:
         run: npm install -g @aws-amplify/cli
 
       - name: Initialize Amplify
-        run: amplify pull --appId d39dspc9b1g2w --envName newenv --yes
+        run: amplify init --appId d39dspc9b1g2w --envName newenv --region us-east-1 --yes
 
       - name: Deploy Amplify Backend
         run: amplify push --yes --simple
