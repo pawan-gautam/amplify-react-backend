@@ -28,7 +28,7 @@ jobs:
       - name: Install Amplify CLI
         run: npm install -g @aws-amplify/cli
 
-        - name: switch branch
+      - name: switch branch
         run: amplify env checkout dev
 
       - name: Deploy Amplify Backend
