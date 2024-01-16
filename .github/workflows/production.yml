@@ -28,8 +28,11 @@ jobs:
       - name: Install Amplify CLI
         run: npm install -g @aws-amplify/cli
 
-      - name: switch branch
-        run: amplify env checkout dev
+      - name: Set Amplify Environment Variables
+        run: |
+          echo "AMPLIFY_APP_ID=d39dspc9b1g2w" >> $GITHUB_ENV
+          echo "AMPLIFY_ENV_NAME=dev" >> $GITHUB_ENV
+          echo "AMPLIFY_REGION=us-east-1" >> $GITHUB_ENV
 
       - name: Deploy Amplify Backend
         run: amplify push --yes --simple
