@@ -36,5 +36,22 @@
         }
       }
     }
+  },
+  "newenv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyreactbackend-dev-113259-authRole",
+      "UnauthRoleArn": "arn:aws:iam::279250654690:role/amplify-amplifyreactbackend-dev-113259-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::279250654690:role/amplify-amplifyreactbackend-dev-113259-authRole",
+      "Region": "us-east-1",
+      "AmplifyAppId": "d39dspc9b1g2w"
+    },
+    "categories": {
+      "function": {
+        "helloReact": {
+          "deploymentBucketName": "amplify-amplifyreactbackend-dev-113259-deployment",
+          "s3Key": "amplify-builds/helloReact-6a79375065536f636d69-build.zip"
+        }
+      }
+    }
   }
 }
