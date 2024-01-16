@@ -44,7 +44,9 @@
       "AuthRoleArn": "arn:aws:iam::279250654690:role/amplify-amplifyreactbackend-dev-113259-authRole",
       "Region": "us-east-1",
       "AmplifyAppId": "d39dspc9b1g2w",
-      "DeploymentBucketName": "amplify-amplifyreactbackend-newenv-164804-deployment"
+      "DeploymentBucketName": "amplify-amplifyreactbackend-newenv-164804-deployment",
+      "StackName": "amplify-amplifyreactbackend-newenv-164804-",
+      "StackId": "arn:aws:cloudformation:us-east-1:279250654690:stack/amplify-amplifyreactbackend-newenv-164804/4cc695a0-b110-11ee-ad6e-12fe53975089"
     },
     "categories": {
       "function": {
