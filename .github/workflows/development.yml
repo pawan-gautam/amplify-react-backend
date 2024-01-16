@@ -32,7 +32,7 @@ jobs:
         run: |
           amplify configure set \
             --appId d39dspc9b1g2w \
-            --envName newenv \
+            --envName dev \
             --region us-east-1 \
             --yes
 
