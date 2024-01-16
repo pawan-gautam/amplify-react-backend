@@ -43,7 +43,8 @@
       "UnauthRoleArn": "arn:aws:iam::279250654690:role/amplify-amplifyreactbackend-dev-113259-unauthRole",
       "AuthRoleArn": "arn:aws:iam::279250654690:role/amplify-amplifyreactbackend-dev-113259-authRole",
       "Region": "us-east-1",
-      "AmplifyAppId": "d39dspc9b1g2w"
+      "AmplifyAppId": "d39dspc9b1g2w",
+      "DeploymentBucketName": "amplify-amplifyreactbackend-newenv-164804-deployment"
     },
     "categories": {
       "function": {
